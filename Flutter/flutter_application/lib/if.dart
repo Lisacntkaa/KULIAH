@@ -50,6 +50,8 @@ int nilai = 70;
    case 7:
       print("minggu");
       break;
+      default:
+      print ("input tidak valid")
   }
 }*/
 
@@ -60,6 +62,10 @@ int nilai = 70;
 }*/
 
 //while
-/*void main(List<String> args) {
-  int 
-}*/
+void main(List<String> args) {
+  int i = 1;
+  while (i <= 5) {
+    print("perulangan ke-$i");
+    i++;
+  }
+}
