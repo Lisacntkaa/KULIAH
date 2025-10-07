@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome (http://localhost:8080)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}",
+      "runtimeExecutable": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "userDataDir": "${workspaceFolder}/.vscode/chrome",
+      "runtimeArgs": [
+        "--remote-debugging-port=9222",
+        "--disable-extensions",
+        "--no-default-browser-check"
+      ]
+    },
+    {
+      "name": "Attach to Chrome (remote-debugging-port=9222)",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
